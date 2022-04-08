@@ -25,5 +25,14 @@ SELECT * FROM Orders;
 /* 5 - Mostre o id a data da ordem e a data do requirimento  */
 SELECT  OrderID,OrderDate,RequiredDate FROM Orders;
 
+/* Calculando os preços de 12 produtos */
+SELECT  ProductName,UnitPrice,UnitPrice * 12 FROM Products;
+SELECT  ProductName,UnitPrice,UnitPrice / 12 FROM Products;
+
+/* Calculando os preços de 12 produtos */
+SELECT  UnitPrice,UnitPrice + 12 FROM [Order Details];
+SELECT  UnitPrice,UnitPrice - 12 FROM [Order Details];
+
+
 
 
