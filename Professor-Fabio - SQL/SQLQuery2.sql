@@ -35,6 +35,10 @@ SELECT  UnitPrice,UnitPrice - 12 FROM [Order Details];
 
 /* Usando ALIASES "APELIDOS" */
 SELECT  ProductName,UnitPrice,UnitPrice * 12 AS Total FROM Products;
+SELECT Productname Descrição FROM products;
 SELECT  ProductName AS "Nome do Produto" FROM Products;
+SELECT City as "Cidade" FROM Customers;
+SELECT address as "Endereço" FROM Customers;
+SELECT Country as "Pais" FROM Customers;
 
 
