@@ -33,6 +33,8 @@ SELECT  ProductName,UnitPrice,UnitPrice / 12 FROM Products;
 SELECT  UnitPrice,UnitPrice + 12 FROM [Order Details];
 SELECT  UnitPrice,UnitPrice - 12 FROM [Order Details];
 
-
+/* Usando ALIASES "APELIDOS" */
+SELECT  ProductName,UnitPrice,UnitPrice * 12 AS Total FROM Products;
+SELECT  ProductName AS "Nome do Produto" FROM Products;
 
 
