@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafael.sreis10\\Desktop\\Professor-Gustavo\\Projeto_Modelo\\Projeto_Modelo.csproj": {}
+    "C:\\Users\\rafael.sreis10\\Desktop\\git\\Professor-Gustavo - C#\\Projeto_Modelo\\Projeto_Modelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafael.sreis10\\Desktop\\Professor-Gustavo\\Projeto_Modelo\\Projeto_Modelo.csproj": {
+    "C:\\Users\\rafael.sreis10\\Desktop\\git\\Professor-Gustavo - C#\\Projeto_Modelo\\Projeto_Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafael.sreis10\\Desktop\\Professor-Gustavo\\Projeto_Modelo\\Projeto_Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\rafael.sreis10\\Desktop\\git\\Professor-Gustavo - C#\\Projeto_Modelo\\Projeto_Modelo.csproj",
         "projectName": "Projeto_Modelo",
-        "projectPath": "C:\\Users\\rafael.sreis10\\Desktop\\Professor-Gustavo\\Projeto_Modelo\\Projeto_Modelo.csproj",
+        "projectPath": "C:\\Users\\rafael.sreis10\\Desktop\\git\\Professor-Gustavo - C#\\Projeto_Modelo\\Projeto_Modelo.csproj",
         "packagesPath": "C:\\Users\\rafael.sreis10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafael.sreis10\\Desktop\\Professor-Gustavo\\Projeto_Modelo\\obj\\",
+        "outputPath": "C:\\Users\\rafael.sreis10\\Desktop\\git\\Professor-Gustavo - C#\\Projeto_Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

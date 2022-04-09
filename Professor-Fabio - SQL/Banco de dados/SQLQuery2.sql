@@ -40,5 +40,5 @@ SELECT  ProductName AS "Nome do Produto" FROM Products;
 SELECT City as "Cidade" FROM Customers;
 SELECT address as "Endereço" FROM Customers;
 SELECT Country as "Pais" FROM Customers;
-
+SELECT Phone as "Telefone" FROM Customers;
 
