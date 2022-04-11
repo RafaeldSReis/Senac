@@ -33,5 +33,11 @@ namespace Projeto_Modelo
             frm.ShowDialog();
 
         }
+
+        private void lógica2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLogica2 frm = new frmLogica2();
+            frm.ShowDialog();
+        }
     }
 }

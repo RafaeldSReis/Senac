@@ -10,8 +10,5 @@
     <Compile Update="frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmTestes.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

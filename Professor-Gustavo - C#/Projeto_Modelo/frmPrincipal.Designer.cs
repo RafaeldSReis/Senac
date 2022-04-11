@@ -57,7 +57,8 @@ namespace Projeto_Modelo
             this.praticandoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(700, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -70,37 +71,38 @@ namespace Projeto_Modelo
             this.toolStripSeparator1,
             this.sairToolStripMenuItem});
             this.exercíciosToolStripMenuItem.Name = "exercíciosToolStripMenuItem";
-            this.exercíciosToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
+            this.exercíciosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.exercíciosToolStripMenuItem.Text = "Exercícios";
             // 
             // lógica1ToolStripMenuItem
             // 
             this.lógica1ToolStripMenuItem.Name = "lógica1ToolStripMenuItem";
-            this.lógica1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.lógica1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lógica1ToolStripMenuItem.Text = "Lógica 1";
             this.lógica1ToolStripMenuItem.Click += new System.EventHandler(this.lógica1ToolStripMenuItem_Click);
             // 
             // lógica2ToolStripMenuItem
             // 
             this.lógica2ToolStripMenuItem.Name = "lógica2ToolStripMenuItem";
-            this.lógica2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.lógica2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lógica2ToolStripMenuItem.Text = "Lógica 2";
+            this.lógica2ToolStripMenuItem.Click += new System.EventHandler(this.lógica2ToolStripMenuItem_Click);
             // 
             // lógica3ToolStripMenuItem
             // 
             this.lógica3ToolStripMenuItem.Name = "lógica3ToolStripMenuItem";
-            this.lógica3ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.lógica3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lógica3ToolStripMenuItem.Text = "Lógica 3";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -112,31 +114,31 @@ namespace Projeto_Modelo
             this.consulta1ToolStripMenuItem,
             this.consulta2ToolStripMenuItem});
             this.bancoDeDadosToolStripMenuItem.Name = "bancoDeDadosToolStripMenuItem";
-            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(132, 24);
+            this.bancoDeDadosToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
             this.bancoDeDadosToolStripMenuItem.Text = "Banco de Dados";
             // 
             // cadastro1ToolStripMenuItem
             // 
             this.cadastro1ToolStripMenuItem.Name = "cadastro1ToolStripMenuItem";
-            this.cadastro1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cadastro1ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.cadastro1ToolStripMenuItem.Text = "Cadastro 1";
             // 
             // cadastro2ToolStripMenuItem
             // 
             this.cadastro2ToolStripMenuItem.Name = "cadastro2ToolStripMenuItem";
-            this.cadastro2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cadastro2ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.cadastro2ToolStripMenuItem.Text = "Cadastro 2";
             // 
             // consulta1ToolStripMenuItem
             // 
             this.consulta1ToolStripMenuItem.Name = "consulta1ToolStripMenuItem";
-            this.consulta1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.consulta1ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.consulta1ToolStripMenuItem.Text = "Consulta 1";
             // 
             // consulta2ToolStripMenuItem
             // 
             this.consulta2ToolStripMenuItem.Name = "consulta2ToolStripMenuItem";
-            this.consulta2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.consulta2ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.consulta2ToolStripMenuItem.Text = "Consulta 2";
             // 
             // praticandoToolStripMenuItem
@@ -146,34 +148,35 @@ namespace Projeto_Modelo
             this.prática2ToolStripMenuItem,
             this.prática3ToolStripMenuItem});
             this.praticandoToolStripMenuItem.Name = "praticandoToolStripMenuItem";
-            this.praticandoToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
+            this.praticandoToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
             this.praticandoToolStripMenuItem.Text = "Praticando";
             // 
             // prática1ToolStripMenuItem
             // 
             this.prática1ToolStripMenuItem.Name = "prática1ToolStripMenuItem";
-            this.prática1ToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.prática1ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.prática1ToolStripMenuItem.Text = "Prática 1";
             // 
             // prática2ToolStripMenuItem
             // 
             this.prática2ToolStripMenuItem.Name = "prática2ToolStripMenuItem";
-            this.prática2ToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.prática2ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.prática2ToolStripMenuItem.Text = "Prática 2";
             // 
             // prática3ToolStripMenuItem
             // 
             this.prática3ToolStripMenuItem.Name = "prática3ToolStripMenuItem";
-            this.prática3ToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
+            this.prática3ToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.prática3ToolStripMenuItem.Text = "Prática 3";
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(700, 338);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmPrincipal";
             this.Text = "Projeto Modelo da Turma 30 - Técnico em Informática";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
