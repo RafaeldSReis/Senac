@@ -19,5 +19,20 @@ namespace Projeto_modelo_22
             // frm.Show();
             frm.ShowDialog();
         }
+
+        private void logica2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            frmLogica2 frm = new frmLogica2();
+            
+
+            // frm.Show();
+            frm.ShowDialog();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

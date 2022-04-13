@@ -46,7 +46,7 @@
             this.bancoDeDadosSQLServerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(499, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -60,7 +60,7 @@
             this.sairToolStripMenuItem});
             this.exerciciosDeLógicaToolStripMenuItem.Name = "exerciciosDeLógicaToolStripMenuItem";
             this.exerciciosDeLógicaToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
-            this.exerciciosDeLógicaToolStripMenuItem.Text = "Exercicios de Lógica";            
+            this.exerciciosDeLógicaToolStripMenuItem.Text = "Exercicios de Lógica";
             // 
             // logica1ToolStripMenuItem
             // 
@@ -74,6 +74,7 @@
             this.logica2ToolStripMenuItem.Name = "logica2ToolStripMenuItem";
             this.logica2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.logica2ToolStripMenuItem.Text = "Logica 2";
+            this.logica2ToolStripMenuItem.Click += new System.EventHandler(this.logica2ToolStripMenuItem_Click);
             // 
             // logica3ToolStripMenuItem
             // 
@@ -91,6 +92,7 @@
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // bancoDeDadosSQLServerToolStripMenuItem
             // 
@@ -102,11 +104,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(499, 364);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenu";
             this.Text = "Tela Principal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

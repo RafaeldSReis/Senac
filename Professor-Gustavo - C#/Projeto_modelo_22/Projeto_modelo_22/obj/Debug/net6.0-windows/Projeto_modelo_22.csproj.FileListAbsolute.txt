@@ -16,3 +16,23 @@ C:\Users\rafin\source\repos\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0
 C:\Users\rafin\source\repos\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.pdb
 C:\Users\rafin\source\repos\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.genruntimeconfig.cache
 C:\Users\rafin\source\repos\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\ref\Projeto_modelo_22.dll
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\bin\Debug\net6.0-windows\Projeto_modelo_22.exe
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\bin\Debug\net6.0-windows\Projeto_modelo_22.deps.json
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\bin\Debug\net6.0-windows\Projeto_modelo_22.runtimeconfig.json
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\bin\Debug\net6.0-windows\Projeto_modelo_22.dll
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\bin\Debug\net6.0-windows\Projeto_modelo_22.pdb
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.csproj.AssemblyReference.cache
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmLogica2.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmLogica1.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmMenu.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.csproj.GenerateResource.cache
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.AssemblyInfoInputs.cache
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.AssemblyInfo.cs
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.csproj.CoreCompileInputs.cache
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.dll
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\refint\Projeto_modelo_22.dll
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.pdb
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.genruntimeconfig.cache
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\ref\Projeto_modelo_22.dll
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmLogin.resources
