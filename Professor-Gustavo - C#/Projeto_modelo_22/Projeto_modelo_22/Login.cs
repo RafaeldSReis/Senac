@@ -16,5 +16,10 @@ namespace Projeto_modelo_22
         {
             InitializeComponent();
         }
+
+        private void txtPassWord_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
