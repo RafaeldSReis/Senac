@@ -30,10 +30,12 @@ namespace ConectMysql
             {
                 string data_source = "datasource=localhost;username=root;password=admin;database=csharp";
                 //Criar conexão com Mysql
-                Conexao = new MySqlConnection(data_source);                
-                string sql = "INSERT INTO users (email,passwd) VALUES " + "('" + txtEmail.Text + "', '" + txtPasswd.Text + "')";
+                Conexao = new MySqlConnection(data_source);
 
                 // Inserindo usuario
+                string sql = "INSERT INTO users (email,passwd) VALUES " + "('" + txtEmail.Text + "', '" + txtPasswd.Text + "')";
+
+                // Executando o comando
                 MySqlCommand comando = new MySqlCommand(sql, Conexao);
                 Conexao.Open();
 
@@ -46,6 +48,7 @@ namespace ConectMysql
                 MessageBox.Show("Falha: "+ex.Message);
             } finally
             {
+                // Encerra a conexão
                 Conexao.Close();
             }
         }

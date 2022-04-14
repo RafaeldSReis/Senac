@@ -33,11 +33,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtPasswd = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(190, 380);
+            this.btnAdd.Location = new System.Drawing.Point(199, 260);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(218, 44);
             this.btnAdd.TabIndex = 0;
@@ -59,7 +60,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(90, 237);
+            this.label2.Location = new System.Drawing.Point(92, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 25);
             this.label2.TabIndex = 2;
@@ -74,17 +75,28 @@
             // 
             // txtPasswd
             // 
-            this.txtPasswd.Location = new System.Drawing.Point(209, 237);
+            this.txtPasswd.Location = new System.Drawing.Point(209, 208);
             this.txtPasswd.Name = "txtPasswd";
             this.txtPasswd.PasswordChar = '*';
             this.txtPasswd.Size = new System.Drawing.Size(199, 20);
             this.txtPasswd.TabIndex = 4;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(142, 45);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(330, 39);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Cadastro MYSQLDB";
+            // 
             // frmConnect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 474);
+            this.ClientSize = new System.Drawing.Size(577, 387);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtPasswd);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label2);
@@ -105,6 +117,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtPasswd;
+        private System.Windows.Forms.Label label3;
     }
 }
 
