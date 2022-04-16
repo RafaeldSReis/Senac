@@ -29,11 +29,11 @@ namespace ConectMysql
             try
             {
                 //Criar conexão com Mysql
-                string data_source = "datasource=localhost;username=root;password=admin;database=csharp";               
+                string data_source = "datasource=localhost;username=root;password=admin;database=csharp";
                 Conexao = new MySqlConnection(data_source);
 
                 // Inserindo usuario
-                string sql = "INSERT INTO users (email,passwd) VALUES " + "('" + txtEmail.Text + "', '" + txtPasswd.Text + "')";
+                string sql = "INSERT INTO employees (name,passwd) VALUES " + "('" + txtName.Text + "', '" + txtPasswd.Text + "')";
 
                 // Executando o comando
                 MySqlCommand comando = new MySqlCommand(sql, Conexao);
@@ -45,8 +45,9 @@ namespace ConectMysql
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Falha: "+ex.Message);
-            } finally
+                MessageBox.Show("Falha: " + ex.Message);
+            }
+            finally
             {
                 // Encerra a conexão
                 Conexao.Close();
@@ -63,7 +64,7 @@ namespace ConectMysql
                 var comand = Conexao.CreateCommand();
 
                 // Busca no banco de dados
-                MySqlCommand query = new MySqlCommand("SELECT COUNT(*) FROM users WHERE email = '"+ txtEmail.Text + "'and passwd = '"+ txtPasswd.Text + "'", Conexao);
+                MySqlCommand query = new MySqlCommand("SELECT COUNT(*) FROM employees WHERE name = '" + txtName.Text + "'and passwd = '" + txtPasswd.Text + "'", Conexao);
                 Conexao.Open();
 
                 // Convertento
@@ -72,19 +73,20 @@ namespace ConectMysql
                 dataAdapter.Fill(dataTable);
 
                 // Validando Conexão
-                foreach(DataRow list in dataTable.Rows)
+                foreach (DataRow list in dataTable.Rows)
                 {
-                    if(Convert.ToInt32(list.ItemArray[0]) > 0){
+                    if (Convert.ToInt32(list.ItemArray[0]) > 0)
+                    {
                         frmHome frm = new frmHome();
                         frm.ShowDialog();
                     }
                     else
                     {
-                        MessageBox.Show("Usuario não Cadastrado");                        
+                        MessageBox.Show("Usuario não Cadastrado");
                     }
                 }
-                
-              
+
+
             }
             catch (System.Exception ex)
             {
@@ -94,7 +96,7 @@ namespace ConectMysql
             {
                 Conexao.Clone();
             }
-            
+
 
         }
 
@@ -102,5 +104,6 @@ namespace ConectMysql
         {
             Application.Exit();
         }
+       
     }
 }
