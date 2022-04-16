@@ -34,13 +34,15 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtPasswd = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(199, 260);
+            this.btnAdd.Location = new System.Drawing.Point(12, 307);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(218, 44);
+            this.btnAdd.Size = new System.Drawing.Size(128, 28);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Adicionar";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -91,11 +93,33 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Cadastro MYSQLDB";
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(196, 307);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(132, 28);
+            this.btnLogin.TabIndex = 6;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(370, 307);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(131, 28);
+            this.btnExit.TabIndex = 7;
+            this.btnExit.Text = "Sair";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // frmConnect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 387);
+            this.ClientSize = new System.Drawing.Size(563, 406);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtPasswd);
             this.Controls.Add(this.txtEmail);
@@ -103,7 +127,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAdd);
             this.Name = "frmConnect";
-            this.Text = "Conexão com DB MYSQL";
+            this.Text = "Página de Login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -118,6 +142,8 @@
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtPasswd;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnExit;
     }
 }
 

@@ -66,3 +66,4 @@ C:\Users\rafin\Desktop\Senac\Praticando em Casa\ConectMysql\ConectMysql\obj\Debu
 C:\Users\rafin\Desktop\Senac\Praticando em Casa\ConectMysql\ConectMysql\obj\Debug\ConectMysql.csproj.CopyComplete
 C:\Users\rafin\Desktop\Senac\Praticando em Casa\ConectMysql\ConectMysql\obj\Debug\ConectMysql.exe
 C:\Users\rafin\Desktop\Senac\Praticando em Casa\ConectMysql\ConectMysql\obj\Debug\ConectMysql.pdb
+C:\Users\rafin\Desktop\Senac\Praticando em Casa\ConectMysql\ConectMysql\obj\Debug\ConectMysql.frmHome.resources
