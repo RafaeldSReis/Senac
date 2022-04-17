@@ -33,7 +33,7 @@ namespace ConectMysql
                 Conexao = new MySqlConnection(data_source);
 
                 // Inserindo usuario
-                string sql = "INSERT INTO employees (name,passwd) VALUES " + "('" + txtName.Text + "', '" + txtPasswd.Text + "')";
+                string sql = "INSERT INTO users (name,passwd) VALUES " + "('" + txtName.Text + "', '" + txtPasswd.Text + "')";
 
                 // Executando o comando
                 MySqlCommand comando = new MySqlCommand(sql, Conexao);
@@ -64,7 +64,7 @@ namespace ConectMysql
                 var comand = Conexao.CreateCommand();
 
                 // Busca no banco de dados
-                MySqlCommand query = new MySqlCommand("SELECT COUNT(*) FROM employees WHERE name = '" + txtName.Text + "'and passwd = '" + txtPasswd.Text + "'", Conexao);
+                MySqlCommand query = new MySqlCommand("SELECT COUNT(*) FROM users WHERE name = '" + txtName.Text + "'and passwd = '" + txtPasswd.Text + "'", Conexao);
                 Conexao.Open();
 
                 // Convertento
