@@ -27,21 +27,56 @@ namespace ConectMysql
         private void btnConect_Click(object sender, EventArgs e)
         {
             try
-            {
+            {        
                 //Criar conexão com Mysql
-                string data_source = "datasource=localhost;username=root;password=admin;database=csharp";
-                Conexao = new MySqlConnection(data_source);
+                string cks = "datasource=localhost;username=root;password=admin;database=csharp";
+                Conexao = new MySqlConnection(cks);
+                var comand = Conexao.CreateCommand();
 
-                // Inserindo usuario
-                string sql = "INSERT INTO users (name,passwd) VALUES " + "('" + txtName.Text + "', '" + txtPasswd.Text + "')";
-
-                // Executando o comando
-                MySqlCommand comando = new MySqlCommand(sql, Conexao);
+                // Busca no banco de dados
+                MySqlCommand query = new MySqlCommand("SELECT COUNT(*) FROM users WHERE name = '" + txtName.Text + "'", Conexao);
                 Conexao.Open();
 
-                comando.ExecuteReader();
+                // Convertento para tabela
+                DataTable dataTable = new DataTable();
+                MySqlDataAdapter dataAdapter = new MySqlDataAdapter(query);
+                dataAdapter.Fill(dataTable);
 
-                MessageBox.Show("Cadastrado com Sucesso!");
+                // Verifica se Usuario ja existe
+                foreach (DataRow list in dataTable.Rows)
+                {
+                    if (Convert.ToInt32(list.ItemArray[0]) > 0)
+                    {
+                        MessageBox.Show("Usuario Ja Cadastrado");
+                        Conexao.Close();
+                    }
+                    if(Convert.ToInt32(list.ItemArray[0]) == 0)
+                    {
+                        string data_source = "datasource=localhost;username=root;password=admin;database=csharp";
+                        Conexao = new MySqlConnection(data_source);
+
+                        // Verificando se os Campos estão preenchidos
+                        if(txtName.Text != "" && txtPasswd.Text != "")
+                        {
+                            // Inserindo usuario
+                            string sql = "INSERT INTO users (name,passwd) VALUES " + "('" + txtName.Text + "', '" + txtPasswd.Text + "')";
+
+                            // Executando o comando
+                            MySqlCommand comando = new MySqlCommand(sql, Conexao);
+                            Conexao.Open();
+
+                            comando.ExecuteReader();
+
+                            MessageBox.Show("Cadastrado com Sucesso!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Preencha os Campos!");
+                        }
+                      
+                    }
+                    Conexao.Close();
+                }               
             }
             catch (Exception ex)
             {
@@ -85,8 +120,6 @@ namespace ConectMysql
                         MessageBox.Show("Usuario não Cadastrado");
                     }
                 }
-
-
             }
             catch (System.Exception ex)
             {
@@ -96,10 +129,8 @@ namespace ConectMysql
             {
                 Conexao.Clone();
             }
-
-
         }
-
+        // Botão Sair
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
