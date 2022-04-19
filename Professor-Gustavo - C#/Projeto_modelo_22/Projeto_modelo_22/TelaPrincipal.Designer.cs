@@ -81,6 +81,7 @@
             this.logica3ToolStripMenuItem.Name = "logica3ToolStripMenuItem";
             this.logica3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.logica3ToolStripMenuItem.Text = "Logica 3";
+            this.logica3ToolStripMenuItem.Click += new System.EventHandler(this.logica3ToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 

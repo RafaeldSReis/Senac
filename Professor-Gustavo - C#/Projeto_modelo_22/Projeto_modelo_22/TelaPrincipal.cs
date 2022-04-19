@@ -34,5 +34,14 @@ namespace Projeto_modelo_22
         {
             Application.Exit();
         }
+
+        private void logica3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLogica3 frm = new frmLogica3();
+
+
+            // frm.Show();
+            frm.ShowDialog();
+        }
     }
 }

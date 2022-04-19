@@ -24,12 +24,13 @@ namespace Projeto_modelo_22
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            var name = "Rafael";
-            var passwd = "admin";
+            var name = "admin";
+            var passwd = "1234";
 
             if(txtPassWord.Text == passwd && txtUser.Text == name)
             {
                 frmMenu frm = new frmMenu();
+                this.Hide(); // fecha o programa
                 frm.ShowDialog();
             }
             else
