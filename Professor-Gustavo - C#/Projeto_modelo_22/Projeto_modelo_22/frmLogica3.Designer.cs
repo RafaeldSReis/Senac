@@ -117,9 +117,9 @@
             this.lblResult.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblResult.Location = new System.Drawing.Point(99, 191);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(65, 28);
+            this.lblResult.Size = new System.Drawing.Size(98, 28);
             this.lblResult.TabIndex = 8;
-            this.lblResult.Text = "label3";
+            this.lblResult.Text = "Resultado";
             // 
             // frmLogica3
             // 

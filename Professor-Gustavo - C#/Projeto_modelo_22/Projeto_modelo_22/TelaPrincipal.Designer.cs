@@ -33,6 +33,7 @@
             this.logica1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logica2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logica3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logica4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bancoDeDadosSQLServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,6 +57,7 @@
             this.logica1ToolStripMenuItem,
             this.logica2ToolStripMenuItem,
             this.logica3ToolStripMenuItem,
+            this.logica4ToolStripMenuItem,
             this.toolStripSeparator1,
             this.sairToolStripMenuItem});
             this.exerciciosDeLógicaToolStripMenuItem.Name = "exerciciosDeLógicaToolStripMenuItem";
@@ -82,6 +84,13 @@
             this.logica3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.logica3ToolStripMenuItem.Text = "Logica 3";
             this.logica3ToolStripMenuItem.Click += new System.EventHandler(this.logica3ToolStripMenuItem_Click);
+            // 
+            // logica4ToolStripMenuItem
+            // 
+            this.logica4ToolStripMenuItem.Name = "logica4ToolStripMenuItem";
+            this.logica4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logica4ToolStripMenuItem.Text = "Logica 4";
+            this.logica4ToolStripMenuItem.Click += new System.EventHandler(this.logica4ToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -128,5 +137,6 @@
         private ToolStripSeparator toolStripSeparator1;
         private ToolStripMenuItem sairToolStripMenuItem;
         private ToolStripMenuItem bancoDeDadosSQLServerToolStripMenuItem;
+        private ToolStripMenuItem logica4ToolStripMenuItem;
     }
 }

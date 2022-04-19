@@ -43,5 +43,14 @@ namespace Projeto_modelo_22
             // frm.Show();
             frm.ShowDialog();
         }
+
+        private void logica4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCalcIMC frm = new frmCalcIMC();
+
+
+            // frm.Show();
+            frm.ShowDialog();
+        }
     }
 }
