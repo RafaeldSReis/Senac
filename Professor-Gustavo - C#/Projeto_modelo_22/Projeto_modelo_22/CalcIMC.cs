@@ -29,7 +29,31 @@ namespace Projeto_modelo_22
             txtIMC.Text = result.ToString("N2");
 
 
-            
+            if(result < 18.5)
+            {
+                lblResult.Text = "Peso baixo";
+            }
+            if(result >= 18.5 && result < 24.9 )
+            {
+                lblResult.Text = "Peso normal";
+            }
+            if( result >= 25 && result < 29.9)
+            {
+                lblResult.Text = "Sobrepeso";
+            }
+            if (result >= 30 && result < 34.9)
+            {
+                lblResult.Text = "Obesidade (Grau I)";
+            }
+            if (result >= 35 && result < 39.9)
+            {
+                lblResult.Text = "Obesidade Severa (Grau II)";
+            }
+            if (result >= 40 )
+            {
+                lblResult.Text = "Obesidade Morbida (Grau III)";
+            }
         }
+       
     }
 }

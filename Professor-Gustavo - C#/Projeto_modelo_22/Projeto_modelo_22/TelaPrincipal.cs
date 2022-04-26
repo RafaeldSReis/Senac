@@ -37,7 +37,7 @@ namespace Projeto_modelo_22
 
         private void logica3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmLogica3 frm = new frmLogica3();
+            CalcBasic frm = new CalcBasic();
 
 
             // frm.Show();
@@ -50,6 +50,40 @@ namespace Projeto_modelo_22
 
 
             // frm.Show();
+            frm.ShowDialog();
+        }
+
+        private void logica5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTabuada frm = new frmTabuada();
+
+
+            // frm.Show();
+            frm.ShowDialog();
+        }
+
+        private void logica6ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           frmParImpar  frm = new frmParImpar();
+
+
+            // frm.Show();
+            frm.ShowDialog();
+        }
+
+        private void logica7ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmIdade frm = new frmIdade();
+
+
+            // frm.Show();
+            frm.ShowDialog();
+        }
+
+        private void logica8ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAltoBaixo frm = new frmAltoBaixo();
+
             frm.ShowDialog();
         }
     }

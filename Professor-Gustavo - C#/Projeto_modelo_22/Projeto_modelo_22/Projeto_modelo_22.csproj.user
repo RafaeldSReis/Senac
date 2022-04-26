@@ -10,7 +10,19 @@
     <Compile Update="ExercicioMedia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmLogica3.cs">
+    <Compile Update="CalcBasic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmAltoBaixo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmIdade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmParImpar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tabuada.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">

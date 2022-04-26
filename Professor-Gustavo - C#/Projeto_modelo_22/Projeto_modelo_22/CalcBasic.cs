@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto_modelo_22
 {
-    public partial class frmLogica3 : Form
+    public partial class CalcBasic : Form
     {
-        public frmLogica3()
+        public CalcBasic()
         {
             InitializeComponent();
         }
@@ -55,6 +55,11 @@ namespace Projeto_modelo_22
 
             media = n1 * n2;
             lblResult.Text = "Resultado da Multiplicação " + txtV1.Text + " * " + txtV2.Text + " = " + media;
+        }
+
+        private void CalcBasic_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

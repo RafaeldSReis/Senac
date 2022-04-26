@@ -1,6 +1,6 @@
 ﻿namespace Projeto_modelo_22
 {
-    partial class frmLogica3
+    partial class CalcBasic
     {
         /// <summary>
         /// Required designer variable.
@@ -121,7 +121,7 @@
             this.lblResult.TabIndex = 8;
             this.lblResult.Text = "Resultado";
             // 
-            // frmLogica3
+            // CalcBasic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -135,9 +135,10 @@
             this.Controls.Add(this.txtV1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "frmLogica3";
+            this.Name = "CalcBasic";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercicio Logica 3";
+            this.Load += new System.EventHandler(this.CalcBasic_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -115,7 +115,7 @@
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(97, 15);
             this.lblResult.TabIndex = 8;
-            this.lblResult.Text = "------------------";
+            this.lblResult.Text = "------------------";          
             // 
             // frmCalcIMC
             // 
