@@ -56,7 +56,6 @@ C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_mo
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.pdb
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.genruntimeconfig.cache
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\ref\Projeto_modelo_22.dll
-C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmLogica3.resources
 C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmCalcIMC.resources
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmCalcIMC.resources
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.CalcBasic.resources
@@ -64,3 +63,9 @@ C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_mo
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmParImpar.resources
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmIdade.resources
 C:\Users\rafin\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmAltoBaixo.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.CalcBasic.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmAltoBaixo.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmIdade.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmParImpar.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmTabuada.resources
+C:\Users\rafael.sreis10\Desktop\Senac\Professor-Gustavo - C#\Projeto_modelo_22\Projeto_modelo_22\obj\Debug\net6.0-windows\Projeto_modelo_22.frmLogica9.resources
