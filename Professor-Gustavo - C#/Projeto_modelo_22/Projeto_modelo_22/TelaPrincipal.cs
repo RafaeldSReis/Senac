@@ -86,12 +86,5 @@ namespace Projeto_modelo_22
 
             frm.ShowDialog();
         }
-
-        private void logica9ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmLogica9 frm = new frmLogica9();
-
-            frm.ShowDialog();
-        }
     }
 }

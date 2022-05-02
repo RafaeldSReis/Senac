@@ -19,7 +19,8 @@ namespace Projeto_modelo_22
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var n1 = int.Parse(txtN1.Text);
+            int n1 = 0;
+            n1 = int.Parse(txtN1.Text);
             for(int i = 1; i <= 10; i++)
             {
                 listResult.Items.Add(n1 + "x" + i + " = " + (n1 * i));               
