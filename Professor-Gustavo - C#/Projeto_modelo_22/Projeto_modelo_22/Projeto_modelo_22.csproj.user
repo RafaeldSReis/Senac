@@ -19,6 +19,12 @@
     <Compile Update="frmIdade.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmLogica10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLogica9.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmParImpar.cs">
       <SubType>Form</SubType>
     </Compile>
