@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Projeto_modelo_22
 {
     public partial class frmLogica10 : Form
@@ -19,19 +20,30 @@ namespace Projeto_modelo_22
 
         private void btnRodar_Click(object sender, EventArgs e)
         {
-            int n1,n2,n3;
-
+            int c, d, u;
             
-            for(n1 = 0; n1 <= 9; n1++)
-                for(n2 = 0; n2 <= 9; n2++)
-                    for(n3 = 0; n3 <= 9; n3++)
+            for(c = 0; c <= 9; c++)
+                for(d = 0; d <= 9; d++)
+                    for(u = 0; u <= 9; u++)
                     {
-                        txtUnidade.Text = (n3.ToString());
-                        txtDezena.Text = (n2.ToString());
-                        txtCentena.Text = (n1.ToString());
+                        txtUnidade.Text = (c.ToString());
+                        txtDezena.Text = (d.ToString());
+                        txtCentena.Text = (u.ToString());
                         MessageBox.Show("STOP");
                     }
+        }
 
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            int c, d, u;
+            for (c = 0; c <= 9; c++)
+                for (d = 0; d <= 9; d++)
+                    for (u = 0; u <= 9; u++)
+                    {
+                        txtUnidade.Text = (c.ToString());
+                        txtDezena.Text = (d.ToString());
+                        txtCentena.Text = (u.ToString());                        
+                    }
         }
     }
 }

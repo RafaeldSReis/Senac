@@ -33,6 +33,8 @@
             this.txtUnidade = new System.Windows.Forms.TextBox();
             this.btnRodar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.txtParar = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtCentena
@@ -79,11 +81,30 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Odômetro de 3 casas";
             // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(192, 240);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(75, 23);
+            this.btnStop.TabIndex = 5;
+            this.btnStop.Text = "Parar";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
+            // txtParar
+            // 
+            this.txtParar.Location = new System.Drawing.Point(182, 286);
+            this.txtParar.Name = "txtParar";
+            this.txtParar.Size = new System.Drawing.Size(100, 23);
+            this.txtParar.TabIndex = 6;
+            // 
             // frmLogica10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(491, 295);
+            this.ClientSize = new System.Drawing.Size(491, 339);
+            this.Controls.Add(this.txtParar);
+            this.Controls.Add(this.btnStop);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRodar);
             this.Controls.Add(this.txtUnidade);
@@ -104,5 +125,7 @@
         private TextBox txtUnidade;
         private Button btnRodar;
         private Label label1;
+        private Button btnStop;
+        private TextBox txtParar;
     }
 }
