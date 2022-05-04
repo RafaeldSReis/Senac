@@ -32,10 +32,11 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPhone = new System.Windows.Forms.TextBox();
-            this.ltsList = new System.Windows.Forms.ListBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.dgvList = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvList)).BeginInit();
             this.SuspendLayout();
             // 
             // Nome
@@ -70,15 +71,6 @@
             this.txtPhone.Size = new System.Drawing.Size(116, 20);
             this.txtPhone.TabIndex = 3;
             // 
-            // ltsList
-            // 
-            this.ltsList.FormattingEnabled = true;
-            this.ltsList.Location = new System.Drawing.Point(531, 110);
-            this.ltsList.Name = "ltsList";
-            this.ltsList.Size = new System.Drawing.Size(424, 420);
-            this.ltsList.TabIndex = 4;
-            this.ltsList.SelectedIndexChanged += new System.EventHandler(this.ltsList_SelectedIndexChanged);
-            // 
             // btnAdd
             // 
             this.btnAdd.Location = new System.Drawing.Point(134, 186);
@@ -107,15 +99,23 @@
             this.btnDelete.Text = "Excluir";
             this.btnDelete.UseVisualStyleBackColor = true;
             // 
+            // dgvList
+            // 
+            this.dgvList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvList.Location = new System.Drawing.Point(553, 83);
+            this.dgvList.Name = "dgvList";
+            this.dgvList.Size = new System.Drawing.Size(415, 374);
+            this.dgvList.TabIndex = 8;
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 644);
+            this.Controls.Add(this.dgvList);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.ltsList);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtName);
@@ -123,6 +123,7 @@
             this.Name = "frmHome";
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.dgvList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,9 +135,9 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtPhone;
-        private System.Windows.Forms.ListBox ltsList;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.DataGridView dgvList;
     }
 }

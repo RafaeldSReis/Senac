@@ -58,34 +58,41 @@ namespace ConectMysql
                 command = null;
             }
         }
-       
+
         private void ltsList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            conexao = new SqlConnection(@"Data Source=DESKTOP-KRLKM9V\SQLEXPRESS;Initial Catalog=csharp;User ID=sa;Password=senac");
-
-
-            string query = "SELECT * FROM contact";
-            SqlCommand dt = new SqlCommand(query, conexao);            
 
             try
             {
+                string nome = txtName.Text;
+                string phone = txtPhone.Text;
+                conexao = new SqlConnection(@"Data Source=DESKTOP-KRLKM9V\SQLEXPRESS;Initial Catalog=csharp;User ID=sa;Password=senac");
                 conexao.Open();
-                reader = dt.ExecuteReader();
-
-                while (reader.Read())
+                string query = "SELECT * FROM contact";
+                SqlCommand cmd = new SqlCommand(query, conexao);
+                cmd.Parameters.AddWithValue("@nome", "%" + nome + "%");
+                cmd.Parameters.AddWithValue("@phone", "%" + phone + "%");
+                DataSet ds = new DataSet();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(ds, "contact");
+                dgvList.DataSource = ds.Tables["contact"];
+                foreach (DataGridViewColumn column in dgvList.Columns)
                 {
-
-                    string name = reader.GetString("name");
-                    ltsList.Items.Add(name);
-
+                    if (column.DataPropertyName == "ID")
+                        column.Width = 20;
+                    column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                    if (column.DataPropertyName == "name")
+                        column.Width = 80;
+                    column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                    if (column.DataPropertyName == "phone")
+                        column.Width = 60;
+                    column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 }
                 conexao.Close();
             }
-
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-
+                throw ex;
             }
 
         }
