@@ -78,13 +78,13 @@ namespace ConectMysql
                 foreach (DataGridViewColumn column in dgvList.Columns)
                 {
                     if (column.DataPropertyName == "ID")
-                        column.Width = 20;
+                        column.Width = 10;
                     column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                     if (column.DataPropertyName == "name")
                         column.Width = 80;
                     column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                     if (column.DataPropertyName == "phone")
-                        column.Width = 60;
+                        column.Width = 80;
                     column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                 }
                 conexao.Close();

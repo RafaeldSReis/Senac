@@ -50,9 +50,7 @@ namespace ConectMysql
                 MessageBox.Show("Falha: " + ex.Message);
             }
             finally
-            {
-                conexao.Close();
-                command.Clone();
+            {        
                 conexao = null;
                 command = null;
             }
