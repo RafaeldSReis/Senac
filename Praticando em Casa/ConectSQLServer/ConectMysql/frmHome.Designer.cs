@@ -102,16 +102,16 @@
             // dgvList
             // 
             this.dgvList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvList.Location = new System.Drawing.Point(553, 83);
+            this.dgvList.Location = new System.Drawing.Point(492, 44);
             this.dgvList.Name = "dgvList";
-            this.dgvList.Size = new System.Drawing.Size(415, 374);
+            this.dgvList.Size = new System.Drawing.Size(444, 400);
             this.dgvList.TabIndex = 8;
             // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 644);
+            this.ClientSize = new System.Drawing.Size(990, 477);
             this.Controls.Add(this.dgvList);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
@@ -123,6 +123,7 @@
             this.Name = "frmHome";
             this.Text = "Home";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmHome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

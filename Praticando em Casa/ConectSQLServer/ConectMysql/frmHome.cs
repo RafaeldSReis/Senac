@@ -52,14 +52,13 @@ namespace ConectMysql
             }
             finally
             {
-                conexao.Close();
-                command.Clone();
                 conexao = null;
                 command = null;
             }
+            carregargrid();
         }
-
-        private void ltsList_SelectedIndexChanged(object sender, EventArgs e)
+        // metodo que n retorna nada "void"
+        void carregargrid()
         {
 
             try
@@ -94,7 +93,11 @@ namespace ConectMysql
             {
                 throw ex;
             }
+        }
 
+        private void frmHome_Load(object sender, EventArgs e)
+        {
+            carregargrid();
         }
     }
 }
