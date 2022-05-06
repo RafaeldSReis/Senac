@@ -32,7 +32,7 @@ namespace ConectMysql
             try
             {        
                 //Criar conexão com SQLServer               
-                SqlConnection conexao = new SqlConnection(@"Data Source=DESKTOP-KRLKM9V\SQLEXPRESS;Initial Catalog=csharp;User ID=sa;Password=senac");
+                SqlConnection conexao = new SqlConnection(@"Data Source=.;Initial Catalog=csharp;User ID=sa;Password=senac");
 
                 // Inserindo usuario
                 strSQL = "INSERT INTO users (name, passwd) VALUES (@NAME, @PASSWD)";
@@ -68,7 +68,7 @@ namespace ConectMysql
             try
             {
                 //Criar conexão com SQLServer               
-                SqlConnection conexao = new SqlConnection(@"Data Source=DESKTOP-KRLKM9V\SQLEXPRESS;Initial Catalog=csharp;User ID=sa;Password=senac");
+                SqlConnection conexao = new SqlConnection(@"Data Source=.;Initial Catalog=csharp;User ID=sa;Password=senac");
                 conexao.Open();
 
                 // Busca no banco de dados
