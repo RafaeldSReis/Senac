@@ -33,7 +33,7 @@ namespace ConectMysql
             try
             {
                 //Criar conexão com SQLServer               
-                conexao = new SqlConnection(@"Data Source=.;Initial Catalog=csharp;User ID=sa;Password=senac");
+                conexao = new SqlConnection(@"Data Source=DESKTOP-KRLKM9V\SQLEXPRESS;Initial Catalog=csharp;User ID=sa;Password=senac");
 
                 // Inserindo usuario
                 strSQL = "INSERT INTO contact (name, phone) VALUES (@NAME, @PHONE)";
@@ -65,7 +65,7 @@ namespace ConectMysql
             {
                 string nome = txtName.Text;
                 string phone = txtPhone.Text;
-                conexao = new SqlConnection(@"Data Source=.;Initial Catalog=csharp;User ID=sa;Password=senac");
+                conexao = new SqlConnection(@"Data Source=DESKTOP-KRLKM9V\SQLEXPRESS;Initial Catalog=csharp;User ID=sa;Password=senac");
                 conexao.Open();
                 string query = "SELECT * FROM contact";
                 SqlCommand cmd = new SqlCommand(query, conexao);
@@ -85,8 +85,9 @@ namespace ConectMysql
                     column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                     if (column.DataPropertyName == "phone")
                         column.Width = 100;
-                    column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                    column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;                   
                 }
+                
                 conexao.Close();
             }
             catch (Exception ex)
@@ -98,6 +99,11 @@ namespace ConectMysql
         private void frmHome_Load(object sender, EventArgs e)
         {
             carregargrid();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+           string name = txtTeste.Text = dgvList.CurrentRow.Cells[1].Value.ToString();            
         }
     }
 }

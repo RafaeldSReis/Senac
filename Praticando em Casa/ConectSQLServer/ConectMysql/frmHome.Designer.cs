@@ -36,6 +36,7 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dgvList = new System.Windows.Forms.DataGridView();
+            this.txtTeste = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,6 +99,7 @@
             this.btnDelete.TabIndex = 7;
             this.btnDelete.Text = "Excluir";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgvList
             // 
@@ -107,11 +109,19 @@
             this.dgvList.Size = new System.Drawing.Size(444, 400);
             this.dgvList.TabIndex = 8;
             // 
+            // txtTeste
+            // 
+            this.txtTeste.Location = new System.Drawing.Point(123, 301);
+            this.txtTeste.Name = "txtTeste";
+            this.txtTeste.Size = new System.Drawing.Size(100, 20);
+            this.txtTeste.TabIndex = 9;
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(990, 477);
+            this.Controls.Add(this.txtTeste);
             this.Controls.Add(this.dgvList);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
@@ -140,5 +150,6 @@
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.DataGridView dgvList;
+        private System.Windows.Forms.TextBox txtTeste;
     }
 }
