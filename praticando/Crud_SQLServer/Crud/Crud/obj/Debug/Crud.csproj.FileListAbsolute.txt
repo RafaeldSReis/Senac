@@ -3,9 +3,11 @@ C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\bin\Debug\Crud.
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\bin\Debug\Crud.pdb
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.csproj.AssemblyReference.cache
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.csproj.SuggestedBindingRedirects.cache
-C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmCrud.resources
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.Properties.Resources.resources
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.csproj.GenerateResource.cache
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.csproj.CoreCompileInputs.cache
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.exe
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.pdb
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmHome.resources
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmLogin.resources
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmAgenda.resources

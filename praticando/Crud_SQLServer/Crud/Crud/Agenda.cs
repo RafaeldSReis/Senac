@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Crud
 {
-    public partial class frmCrud : Form
+    public partial class frmAgenda : Form
     {
         // SQL Comandos
         SqlConnection conexao;
@@ -19,7 +19,7 @@ namespace Crud
         SqlDataAdapter da;
         string strSQL; // string de comandos
 
-        public frmCrud()
+        public frmAgenda()
         {
             InitializeComponent();
         }
@@ -43,6 +43,8 @@ namespace Crud
                 {
                     comando.ExecuteNonQuery();
                     MessageBox.Show("Adicionado com Sucesso");
+                    txtNome.Clear();
+                    txtTelefone.Clear();
                 }
                 else
                 {
@@ -115,10 +117,12 @@ namespace Crud
         private void dgvDados_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             carregaGrid();
+            string id = dgvDados.CurrentRow.Cells["ID"].Value.ToString();
             string name = dgvDados.CurrentRow.Cells["name"].Value.ToString();
             string phone = dgvDados.CurrentRow.Cells["phone"].Value.ToString();
-            if (name != "")
+            if (id != "")
             {
+                txtID.Text = id;
                 txtNome.Text = name;
                 txtTelefone.Text = phone;
             }
@@ -128,6 +132,7 @@ namespace Crud
         {
             try
             {
+
                 conexao = new SqlConnection(@"Server=DESKTOP-KRLKM9V\SQLEXPRESS;Database=csharp;User id=sa;password=senac");
 
                 strSQL = "UPDATE contact SET name = @NAME, phone = @PHONE  WHERE name = @NAME";
@@ -187,6 +192,8 @@ namespace Crud
                 {
                     comando.ExecuteNonQuery();
                     MessageBox.Show("Exluido com Sucesso");
+                    txtNome.Clear();
+                    txtTelefone.Clear();
                 }
                 else
                 {
@@ -204,6 +211,11 @@ namespace Crud
                 comando = null;
             }
             carregaGrid();
+        }
+
+        private void txtID_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Crud
 {
-    partial class frmCrud
+    partial class frmAgenda
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -38,13 +38,15 @@
             this.btnSair = new System.Windows.Forms.Button();
             this.dgvDados = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 73);
+            this.label1.Location = new System.Drawing.Point(31, 103);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 0;
@@ -53,7 +55,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 124);
+            this.label2.Location = new System.Drawing.Point(31, 143);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 1;
@@ -61,14 +63,14 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(106, 70);
+            this.txtNome.Location = new System.Drawing.Point(106, 100);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(133, 20);
             this.txtNome.TabIndex = 2;
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Location = new System.Drawing.Point(106, 121);
+            this.txtTelefone.Location = new System.Drawing.Point(106, 140);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(133, 20);
             this.txtTelefone.TabIndex = 3;
@@ -132,11 +134,31 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Agenda C#";
             // 
-            // frmCrud
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(31, 69);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(21, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "ID:";
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(106, 66);
+            this.txtID.Name = "txtID";
+            this.txtID.ReadOnly = true;
+            this.txtID.Size = new System.Drawing.Size(30, 20);
+            this.txtID.TabIndex = 11;
+            this.txtID.TextChanged += new System.EventHandler(this.txtID_TextChanged);
+            // 
+            // frmAgenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 406);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dgvDados);
             this.Controls.Add(this.btnSair);
@@ -147,7 +169,8 @@
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "frmCrud";
+            this.Name = "frmAgenda";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CRUD";
             this.Load += new System.EventHandler(this.frmCrud_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).EndInit();
@@ -168,6 +191,8 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.DataGridView dgvDados;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtID;
     }
 }
 
