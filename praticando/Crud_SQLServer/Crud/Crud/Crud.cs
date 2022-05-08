@@ -39,9 +39,16 @@ namespace Crud
 
                 // Abrindo conexão e executando comando
                 conexao.Open();
-                comando.ExecuteNonQuery();
-
-                MessageBox.Show("Adicionado com Sucesso");
+                if (txtNome.Text != "" && txtTelefone.Text != "")
+                {
+                    comando.ExecuteNonQuery();
+                    MessageBox.Show("Adicionado com Sucesso");
+                }
+                else
+                {
+                    MessageBox.Show("Preencha os Campos!!");
+                }
+               
             }
             catch (Exception ex)
             {
@@ -78,8 +85,9 @@ namespace Crud
                 {
                     if (column.DataPropertyName == "ID")
                         column.Width = 20;
+                    column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                     if (column.DataPropertyName == "name")
-                        column.Width = 50;
+                        column.Width = 80;
                     column.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
                     if (column.DataPropertyName == "phone")
                         column.Width = 80;
@@ -108,9 +116,11 @@ namespace Crud
         {
             carregaGrid();
             string name = dgvDados.CurrentRow.Cells["name"].Value.ToString();
+            string phone = dgvDados.CurrentRow.Cells["phone"].Value.ToString();
             if (name != "")
             {
                 txtNome.Text = name;
+                txtTelefone.Text = phone;
             }
         }
 
@@ -130,9 +140,15 @@ namespace Crud
 
                 // Abrindo conexão e executando comando
                 conexao.Open();
-                comando.ExecuteNonQuery();
-
-                MessageBox.Show("Alterado com Sucesso");
+                if (txtNome.Text != "" && txtTelefone.Text != "")
+                {
+                    comando.ExecuteNonQuery();
+                    MessageBox.Show("Alterado com Sucesso");
+                }
+                else
+                {
+                    MessageBox.Show("2 Clique no Telefone!!");
+                }                
             }
             catch (Exception ex)
             {
@@ -167,9 +183,15 @@ namespace Crud
                 
                 // Abrindo conexão e executando comando
                 conexao.Open();
-                comando.ExecuteNonQuery();
-
-                MessageBox.Show("Exluido com Sucesso");
+                if (txtNome.Text != "" && txtTelefone.Text != "")
+                {
+                    comando.ExecuteNonQuery();
+                    MessageBox.Show("Exluido com Sucesso");
+                }
+                else
+                {
+                    MessageBox.Show("2 Clique no Telefone!!");
+                }              
             }
             catch (Exception ex)
             {
