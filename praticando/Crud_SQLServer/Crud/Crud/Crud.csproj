@@ -65,11 +65,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="frmViaCep.cs">
+    <Compile Include="Cotacao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmViaCep.Designer.cs">
-      <DependentUpon>frmViaCep.cs</DependentUpon>
+    <Compile Include="Cotacao.Designer.cs">
+      <DependentUpon>Cotacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViaCep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViaCep.Designer.cs">
+      <DependentUpon>ViaCep.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -88,8 +94,11 @@
     <EmbeddedResource Include="Agenda.resx">
       <DependentUpon>Agenda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmViaCep.resx">
-      <DependentUpon>frmViaCep.cs</DependentUpon>
+    <EmbeddedResource Include="Cotacao.resx">
+      <DependentUpon>Cotacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViaCep.resx">
+      <DependentUpon>ViaCep.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
