@@ -31,6 +31,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.programasPraticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agendaCSQLServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aPIViaCepCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +50,10 @@
             // programasPraticaToolStripMenuItem
             // 
             this.programasPraticaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agendaCSQLServerToolStripMenuItem});
+            this.agendaCSQLServerToolStripMenuItem,
+            this.aPIViaCepCToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.sairToolStripMenuItem});
             this.programasPraticaToolStripMenuItem.Name = "programasPraticaToolStripMenuItem";
             this.programasPraticaToolStripMenuItem.Size = new System.Drawing.Size(123, 20);
             this.programasPraticaToolStripMenuItem.Text = "Programas - Pratica";
@@ -58,6 +64,25 @@
             this.agendaCSQLServerToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.agendaCSQLServerToolStripMenuItem.Text = "Agenda C# - SQLServer";
             this.agendaCSQLServerToolStripMenuItem.Click += new System.EventHandler(this.agendaCSQLServerToolStripMenuItem_Click);
+            // 
+            // aPIViaCepCToolStripMenuItem
+            // 
+            this.aPIViaCepCToolStripMenuItem.Name = "aPIViaCepCToolStripMenuItem";
+            this.aPIViaCepCToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.aPIViaCepCToolStripMenuItem.Text = "API ViaCep C#";
+            this.aPIViaCepCToolStripMenuItem.Click += new System.EventHandler(this.aPIViaCepCToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(194, 6);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.sairToolStripMenuItem.Text = "Sair";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // frmHome
             // 
@@ -81,5 +106,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem programasPraticaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agendaCSQLServerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aPIViaCepCToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
     }
 }

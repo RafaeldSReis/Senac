@@ -11,3 +11,9 @@ C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmHome.resources
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmLogin.resources
 C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmAgenda.resources
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.frmViaCep.resources
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\rafin\Desktop\Senac\praticando\Crud_SQLServer\Crud\Crud\obj\Debug\Crud.csproj.CopyComplete
