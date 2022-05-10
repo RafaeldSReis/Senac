@@ -61,10 +61,7 @@ namespace Crud
         void carregaGrid()
         {
             try
-            {
-                string nome = txtNome.Text;
-                string telefone = txtTelefone.Text;
-
+            {          
                 conexao = new SqlConnection(@"Server=DESKTOP-KRLKM9V\SQLEXPRESS;Database=csharp;User id=sa;password=senac");
 
                 strSQL = "SELECT * FROM contact";

@@ -97,5 +97,11 @@ namespace Projeto_modelo_22
             frmLogica10 frm = new frmLogica10();
             frm.ShowDialog();
         }
+
+        private void banco1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBanco1 frm = new frmBanco1();
+            frm.ShowDialog();
+        }
     }
 }

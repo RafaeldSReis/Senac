@@ -39,10 +39,12 @@
             this.logica7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logica8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logica9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logica10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bancoDeDadosSQLServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logica10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logica11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.banco1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +72,7 @@
             this.logica8ToolStripMenuItem,
             this.logica9ToolStripMenuItem,
             this.logica10ToolStripMenuItem,
+            this.logica11ToolStripMenuItem,
             this.toolStripSeparator1,
             this.sairToolStripMenuItem});
             this.exerciciosDeLógicaToolStripMenuItem.Name = "exerciciosDeLógicaToolStripMenuItem";
@@ -139,6 +142,13 @@
             this.logica9ToolStripMenuItem.Text = "Logica 9";
             this.logica9ToolStripMenuItem.Click += new System.EventHandler(this.logica9ToolStripMenuItem_Click);
             // 
+            // logica10ToolStripMenuItem
+            // 
+            this.logica10ToolStripMenuItem.Name = "logica10ToolStripMenuItem";
+            this.logica10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logica10ToolStripMenuItem.Text = "Logica 10";
+            this.logica10ToolStripMenuItem.Click += new System.EventHandler(this.logica10ToolStripMenuItem_Click);
+            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -153,16 +163,24 @@
             // 
             // bancoDeDadosSQLServerToolStripMenuItem
             // 
+            this.bancoDeDadosSQLServerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.banco1ToolStripMenuItem});
             this.bancoDeDadosSQLServerToolStripMenuItem.Name = "bancoDeDadosSQLServerToolStripMenuItem";
             this.bancoDeDadosSQLServerToolStripMenuItem.Size = new System.Drawing.Size(162, 20);
             this.bancoDeDadosSQLServerToolStripMenuItem.Text = "Banco de dados SQL Server";
             // 
-            // logica10ToolStripMenuItem
+            // logica11ToolStripMenuItem
             // 
-            this.logica10ToolStripMenuItem.Name = "logica10ToolStripMenuItem";
-            this.logica10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.logica10ToolStripMenuItem.Text = "Logica 10";
-            this.logica10ToolStripMenuItem.Click += new System.EventHandler(this.logica10ToolStripMenuItem_Click);
+            this.logica11ToolStripMenuItem.Name = "logica11ToolStripMenuItem";
+            this.logica11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logica11ToolStripMenuItem.Text = "Logica 11";
+            // 
+            // banco1ToolStripMenuItem
+            // 
+            this.banco1ToolStripMenuItem.Name = "banco1ToolStripMenuItem";
+            this.banco1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.banco1ToolStripMenuItem.Text = "Banco 1";
+            this.banco1ToolStripMenuItem.Click += new System.EventHandler(this.banco1ToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
@@ -198,5 +216,7 @@
         private ToolStripMenuItem logica8ToolStripMenuItem;
         private ToolStripMenuItem logica9ToolStripMenuItem;
         private ToolStripMenuItem logica10ToolStripMenuItem;
+        private ToolStripMenuItem logica11ToolStripMenuItem;
+        private ToolStripMenuItem banco1ToolStripMenuItem;
     }
 }

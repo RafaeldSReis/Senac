@@ -32,9 +32,9 @@
             this.programasPraticaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agendaCSQLServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aPIViaCepCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aPICotaçãoCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aPICotaçãoCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,6 +74,12 @@
             this.aPIViaCepCToolStripMenuItem.Text = "API ViaCep C#";
             this.aPIViaCepCToolStripMenuItem.Click += new System.EventHandler(this.aPIViaCepCToolStripMenuItem_Click);
             // 
+            // aPICotaçãoCToolStripMenuItem
+            // 
+            this.aPICotaçãoCToolStripMenuItem.Name = "aPICotaçãoCToolStripMenuItem";
+            this.aPICotaçãoCToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
+            this.aPICotaçãoCToolStripMenuItem.Text = "API Cotação C#";
+            // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
@@ -86,12 +92,6 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
-            // aPICotaçãoCToolStripMenuItem
-            // 
-            this.aPICotaçãoCToolStripMenuItem.Name = "aPICotaçãoCToolStripMenuItem";
-            this.aPICotaçãoCToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
-            this.aPICotaçãoCToolStripMenuItem.Text = "API Cotação C#";
-            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,7 +102,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmHome";
-            this.Text = "Home";
+            this.Text = "Home Pratica";
             this.TransparencyKey = System.Drawing.Color.Transparent;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
