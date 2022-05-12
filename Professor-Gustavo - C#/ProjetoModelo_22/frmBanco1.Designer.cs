@@ -30,7 +30,7 @@
         {
             this.gridDados = new System.Windows.Forms.DataGridView();
             this.btnCarregarDados = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboTabelas = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridDados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,20 +53,27 @@
             this.btnCarregarDados.UseVisualStyleBackColor = true;
             this.btnCarregarDados.Click += new System.EventHandler(this.btnCarregarDados_Click);
             // 
-            // comboBox1
+            // cboTabelas
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(23, 302);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(147, 23);
-            this.comboBox1.TabIndex = 2;
+            this.cboTabelas.FormattingEnabled = true;
+            this.cboTabelas.Items.AddRange(new object[] {
+            "Categories",
+            "Employees",
+            "Suppliers",
+            "Shippers",
+            "Customers"});
+            this.cboTabelas.Location = new System.Drawing.Point(23, 302);
+            this.cboTabelas.Name = "cboTabelas";
+            this.cboTabelas.Size = new System.Drawing.Size(147, 23);
+            this.cboTabelas.TabIndex = 2;
+            this.cboTabelas.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // frmBanco1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(648, 346);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cboTabelas);
             this.Controls.Add(this.btnCarregarDados);
             this.Controls.Add(this.gridDados);
             this.Name = "frmBanco1";
@@ -81,6 +88,6 @@
 
         private DataGridView gridDados;
         private Button btnCarregarDados;
-        private ComboBox comboBox1;
+        private ComboBox cboTabelas;
     }
 }

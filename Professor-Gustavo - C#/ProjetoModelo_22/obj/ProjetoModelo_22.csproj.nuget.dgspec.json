@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {}
+    "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {
+    "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
+        "projectUniqueName": "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
         "projectName": "ProjetoModelo_22",
-        "projectPath": "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
-        "packagesPath": "C:\\Users\\gustavo.mveronezi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\obj\\",
+        "projectPath": "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
+        "packagesPath": "C:\\Users\\rafael.sreis10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gustavo.mveronezi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rafael.sreis10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
