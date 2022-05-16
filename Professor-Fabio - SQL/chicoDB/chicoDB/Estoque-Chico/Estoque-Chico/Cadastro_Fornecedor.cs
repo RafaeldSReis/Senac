@@ -90,6 +90,87 @@ namespace Estoque_Chico
         {
             adicionarFornecedores();
             carregaGrid();
+        }        
+
+        private void editarForbecedor()
+        {
+            try
+            {
+                string sql =
+                "UPDATE Fornecedores SET razaosocial = @RAZAO, nomefab = @NAMEFAN, cnpj = @CNPJ, cep = @CEP, rua = @RUA, bairro = @BAIRRO," +
+                "cidade = @CIDADE, estado = @ESTADO, telefone = @TELEFONE, email = @EMAIL WHERE  codfor = @ID";
+
+                SqlConnection con = new SqlConnection(conexao);
+                SqlCommand cmd = new SqlCommand(sql, con);
+
+                cmd.Parameters.AddWithValue("@ID", txtID.Text);
+                cmd.Parameters.AddWithValue("@RAZAO", txtRazao.Text);
+                cmd.Parameters.AddWithValue("@NAMEFAN", txtNomefan.Text);
+                cmd.Parameters.AddWithValue("@CNPJ", txtCnpj.Text);
+                cmd.Parameters.AddWithValue("@CEP", txtCep.Text);
+                cmd.Parameters.AddWithValue("@RUA", txtRua.Text);
+                cmd.Parameters.AddWithValue("@BAIRRO", txtBairro.Text);
+                cmd.Parameters.AddWithValue("@CIDADE", txtCidade.Text);
+                cmd.Parameters.AddWithValue("@ESTADO", txtEs.Text);
+                cmd.Parameters.AddWithValue("@TELEFONE", txtTelefone.Text);
+                cmd.Parameters.AddWithValue("@EMAIL", txtEmail.Text);
+
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Editado com Sucesso");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO: " + ex.Message);
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            editarForbecedor();
+            carregaGrid();
+        }
+
+        private void buscaID()
+        {
+            try
+            {
+                string sql = "SELECT * FROM  Fornecedores WHERE codfor = @ID";
+
+                SqlConnection con = new SqlConnection(conexao);
+                SqlCommand cmd = new SqlCommand(sql, con);
+
+                cmd.Parameters.AddWithValue("@ID", txtID.Text);
+
+                con.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    txtRazao.Text = (string)dr["razaosocial"];
+                    txtNomefan.Text = (string)dr["nomefab"];
+                    txtCnpj.Text = (string)dr["cnpj"];
+                    txtCep.Text = (string)dr["cep"];
+                    txtRua.Text = (string)dr["rua"];
+                    txtBairro.Text = (string)dr["bairro"];
+                    txtCidade.Text = (string)dr["cidade"];
+                    txtEs.Text = (string)dr["estado"];
+                    txtTelefone.Text = (string)dr["telefone"];
+                    txtEmail.Text = (string)dr["email"];
+                }
+                con.Close();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO: " + ex.Message);
+            }
+        }
+
+            private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            buscaID();
         }
     }
 }

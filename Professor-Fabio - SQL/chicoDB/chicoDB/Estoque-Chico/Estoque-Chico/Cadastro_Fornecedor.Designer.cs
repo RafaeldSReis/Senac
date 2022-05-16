@@ -54,6 +54,9 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
+            this.ID = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -244,6 +247,7 @@
             this.btnEditar.TabIndex = 22;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnExcluir
             // 
@@ -256,7 +260,7 @@
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(605, 225);
+            this.btnSair.Location = new System.Drawing.Point(605, 274);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(173, 23);
             this.btnSair.TabIndex = 24;
@@ -273,11 +277,40 @@
             this.label11.TabIndex = 25;
             this.label11.Text = "CADASTRO DE FORNECEDORES";
             // 
+            // ID
+            // 
+            this.ID.AutoSize = true;
+            this.ID.Location = new System.Drawing.Point(22, 23);
+            this.ID.Name = "ID";
+            this.ID.Size = new System.Drawing.Size(18, 15);
+            this.ID.TabIndex = 26;
+            this.ID.Text = "ID";
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(56, 20);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(100, 23);
+            this.txtID.TabIndex = 27;
+            // 
+            // btnBuscar
+            // 
+            this.btnBuscar.Location = new System.Drawing.Point(605, 220);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(173, 23);
+            this.btnBuscar.TabIndex = 28;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
             // frmCFornecedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 647);
+            this.Controls.Add(this.btnBuscar);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.ID);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnExcluir);
@@ -341,5 +374,8 @@
         private Button btnExcluir;
         private Button btnSair;
         private Label label11;
+        private Label ID;
+        private TextBox txtID;
+        private Button btnBuscar;
     }
 }
