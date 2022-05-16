@@ -251,12 +251,13 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(605, 169);
+            this.btnExcluir.Location = new System.Drawing.Point(605, 225);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(173, 23);
             this.btnExcluir.TabIndex = 23;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnSair
             // 
@@ -295,7 +296,7 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(605, 220);
+            this.btnBuscar.Location = new System.Drawing.Point(605, 169);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(173, 23);
             this.btnBuscar.TabIndex = 28;

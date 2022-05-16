@@ -172,5 +172,24 @@ namespace Estoque_Chico
         {
             buscaID();
         }
+
+        private void deleteFornecedor()
+        {
+            string sql = "DELETE FROM Fornecedores WHERE codfor = @ID";
+
+            SqlConnection con = new SqlConnection(conexao);
+            SqlCommand cmd = new SqlCommand(sql, con);
+
+            cmd.Parameters.AddWithValue("@ID", txtID.Text);
+
+            con.Open();
+            cmd.ExecuteNonQuery();
+        }
+
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            deleteFornecedor();
+            carregaGrid();
+        }
     }
 }
