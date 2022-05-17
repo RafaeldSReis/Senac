@@ -25,7 +25,7 @@ namespace Estoque_Chico
 
         private void carregaGrid()
         {
-            string sql = "SELECT * FROM  Fornecedores";
+            string sql = "SELECT * FROM Clientes";
 
             SqlConnection con = new SqlConnection(conexao);
             SqlCommand cmd = new SqlCommand(sql, con);
@@ -48,11 +48,7 @@ namespace Estoque_Chico
             }
         }       
 
-        private void frmHome_Load(object sender, EventArgs e)
-        {
-            carregaGrid();
-        }
-
+     
         private void adicionarFornecedores()
         {
             try
@@ -190,6 +186,11 @@ namespace Estoque_Chico
         {
             deleteFornecedor();
             carregaGrid();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

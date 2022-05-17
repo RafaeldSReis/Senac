@@ -454,19 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafin\\.nuget\\packages\\": {}
+    "C:\\Users\\rafael.sreis10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Fabio - SQL\\chicoDB\\chicoDB\\Estoque-Chico\\Estoque-Chico\\Estoque-Chico.csproj",
+      "projectUniqueName": "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Fabio - SQL\\chicoDB\\chicoDB\\Estoque-Chico\\Estoque-Chico\\Estoque-Chico.csproj",
       "projectName": "Estoque-Chico",
-      "projectPath": "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Fabio - SQL\\chicoDB\\chicoDB\\Estoque-Chico\\Estoque-Chico\\Estoque-Chico.csproj",
-      "packagesPath": "C:\\Users\\rafin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Fabio - SQL\\chicoDB\\chicoDB\\Estoque-Chico\\Estoque-Chico\\obj\\",
+      "projectPath": "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Fabio - SQL\\chicoDB\\chicoDB\\Estoque-Chico\\Estoque-Chico\\Estoque-Chico.csproj",
+      "packagesPath": "C:\\Users\\rafael.sreis10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rafael.sreis10\\Desktop\\Senac\\Professor-Fabio - SQL\\chicoDB\\chicoDB\\Estoque-Chico\\Estoque-Chico\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rafin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rafael.sreis10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -515,7 +515,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

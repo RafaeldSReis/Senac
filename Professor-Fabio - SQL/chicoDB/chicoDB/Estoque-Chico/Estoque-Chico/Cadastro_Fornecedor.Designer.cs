@@ -267,12 +267,13 @@
             this.btnSair.TabIndex = 24;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(200, 9);
+            this.label11.Location = new System.Drawing.Point(235, 9);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(371, 32);
             this.label11.TabIndex = 25;
@@ -281,17 +282,17 @@
             // ID
             // 
             this.ID.AutoSize = true;
-            this.ID.Location = new System.Drawing.Point(22, 23);
+            this.ID.Location = new System.Drawing.Point(15, 26);
             this.ID.Name = "ID";
-            this.ID.Size = new System.Drawing.Size(18, 15);
+            this.ID.Size = new System.Drawing.Size(52, 15);
             this.ID.TabIndex = 26;
-            this.ID.Text = "ID";
+            this.ID.Text = "Busca ID";
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(56, 20);
+            this.txtID.Location = new System.Drawing.Point(73, 20);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(100, 23);
+            this.txtID.Size = new System.Drawing.Size(109, 23);
             this.txtID.TabIndex = 27;
             // 
             // btnBuscar
@@ -339,8 +340,8 @@
             this.Controls.Add(this.dgvDados);
             this.Controls.Add(this.btnAdicionar);
             this.Name = "frmCFornecedores";
-            this.Text = "Cadastro de Fornecedores";
-            this.Load += new System.EventHandler(this.frmHome_Load);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastro de Fornecedores";            
             ((System.ComponentModel.ISupportInitialize)(this.dgvDados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
