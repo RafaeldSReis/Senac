@@ -81,5 +81,11 @@ namespace ProjetoModelo_22
             frmBanco2 frm = new frmBanco2();
             frm.ShowDialog();
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadCliente frm = new frmCadCliente();
+            frm.ShowDialog();
+        }
     }
 }

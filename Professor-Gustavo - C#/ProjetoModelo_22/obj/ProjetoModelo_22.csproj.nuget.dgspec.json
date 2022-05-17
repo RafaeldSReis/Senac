@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {}
+    "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {
+    "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
+        "projectUniqueName": "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
         "projectName": "ProjetoModelo_22",
-        "projectPath": "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
-        "packagesPath": "C:\\Users\\rafin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafin\\Desktop\\Senac\\Professor-Gustavo - C#\\ProjetoModelo_22\\obj\\",
+        "projectPath": "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\ProjetoModelo_22.csproj",
+        "packagesPath": "C:\\Users\\gustavo.mveronezi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gustavo.mveronezi\\Desktop\\ProjetoModelo_22\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rafin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gustavo.mveronezi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

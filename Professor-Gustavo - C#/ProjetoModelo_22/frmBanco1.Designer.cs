@@ -66,7 +66,6 @@
             this.cboTabelas.Name = "cboTabelas";
             this.cboTabelas.Size = new System.Drawing.Size(147, 23);
             this.cboTabelas.TabIndex = 2;
-            this.cboTabelas.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // frmBanco1
             // 
