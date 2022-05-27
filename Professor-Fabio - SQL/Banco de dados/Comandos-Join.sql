@@ -95,3 +95,10 @@ SELECT * FROM Region;
 SELECT t.TerritoryDescription, r.RegionDescription FROM Territories t JOIN Region r on t.RegionID = r.RegionID;
 
 -- Exercicio 3
+SELECT o.OrderID, c.CompanyName FROM Orders o JOIN Customers c ON  o.CustomerID = c.CustomerID;
+
+
+
+-- Exercicio 5 
+SELECT p.ProductName, s.CompanyName FROM Products as p JOIN Suppliers as s ON p.SupplierID = s.SupplierID 
+                                                       JOIN Categories C ON c.CategoryID = p.CategoryID;
