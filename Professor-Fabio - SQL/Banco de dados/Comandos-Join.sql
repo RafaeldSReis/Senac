@@ -83,4 +83,15 @@ SELECT * FROM Suppliers;
 -- QUAIS CAMPOS EU VOU USAR
 -- QUAIS CAMPOS ESTÃO NAS TABELAS ENVOLVIDAS
 
-SELECT p.ProductName, s.CompanyName  FROM Products AS p JOIN Suppliers as s on p.SupplierID = s.SupplierID; 
+SELECT p.ProductName, s.CompanyName  FROM Products AS p JOIN Suppliers as s on p.SupplierID = s.SupplierID;
+
+-- Exercicio 1
+SELECT p.ProductName, c.CategoryName FROM Products p JOIN Categories c ON  p.CategoryID = c.CategoryID;
+
+-- Exercicio 2
+SELECT * FROM Territories;
+SELECT * FROM Region;
+
+SELECT t.TerritoryDescription, r.RegionDescription FROM Territories t JOIN Region r on t.RegionID = r.RegionID;
+
+-- Exercicio 3
