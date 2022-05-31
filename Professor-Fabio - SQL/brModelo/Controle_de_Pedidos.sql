@@ -2,13 +2,13 @@
 
 CREATE TABLE ProdutosGrupos (
     ID INTEGER PRIMARY KEY IDENTITY(1,1) NOT NULL,
-    GrupDescricao CHAR(30)
+    GrupDescricao NVARCHAR(30)
 );
 
 CREATE TABLE Produtos (
     ID INTEGER PRIMARY KEY IDENTITY(1,1) NOT NULL,
-    ProdDescricao CHAR(50),
-    ProdUnidade CHAR(20),
+    ProdDescricao NVARCHAR(50),
+    ProdUnidade NVARCHAR(20),
     fk_ProdutosGrupos_ID INTEGER,
     ProdValorCompra NUMERIC,
     ProdValorVenda NUMERIC
@@ -26,18 +26,18 @@ CREATE TABLE PedidosItens (
 CREATE TABLE Pedidos (
     ID INTEGER PRIMARY KEY IDENTITY(1,1) NOT NULL,
     PediData DATE,
-    PediObservacao VARCHAR(100),
+    PediObservacao NVARCHAR(100),
     PediValorTotal INTEGER,
     fk_Clientes_ID INTEGER
 );
 
 CREATE TABLE Clientes (
     ID INTEGER PRIMARY KEY IDENTITY(1,1) NOT NULL,
-    ClieNome CHAR(40),
-    ClieEndereco CHAR(50),
-    ClieCep CHAR(9),
-    ClieCidade CHAR(30),
-    ClieEstado CHAR(2),
+    ClieNome NVARCHAR(40),
+    ClieEndereco NVARCHAR(50),
+    ClieCep NVARCHAR(9),
+    ClieCidade NVARCHAR(30),
+    ClieEstado NVARCHAR(2),
     ClieDataCadastro DATE
 );
  
