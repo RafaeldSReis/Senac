@@ -137,6 +137,17 @@ SELECT SUM(Rate) FROM employeepayhistory;
 SELECT ShiftID,COUNT(StartDate) FROM employeedepartmenthistory GROUP BY shiftID;
 
 --18- Faça uma pesquisa que mostre a soma de taxas pagas para cada businessentityID ordenando pela soma dessas taxas.
-SELECT SUM(Rate) FROM employeepayhistory;
+SELECT BusinessEntityID,SUM(Rate) FROM employeepayhistory GROUP BY BusinessEntityID ORDER BY SUM(Rate);
+
+--19- Faça uma pesquisa que mostre a soma de taxas pagas para cada businessentityID com IDs maiores que 10, exclurindo as somas
+-- menores que 20,00 e ordenando pela soma dessas taxas.
+SELECT BusinessEntityID,SUM(Rate) FROM employeepayhistory WHERE BusinessEntityID > 10 GROUP BY BusinessEntityID HAVING SUM(Rate) > 20 ORDER BY SUM(Rate);
+
+--21- Faça uma pesquisa que mostre o LoginID de cada empregado juntamente com a taxa paga para cada um deles.
+SELECT e.LoginID, h.Rate FROM employee e JOIN employeepayhistory h on e.BusinessEntityID = h.BusinessEntityID;
+
+--22- Faça uma pesquisa que mostre a loginID de cada empregado, o nome do departamento que trabalha e o nome seu turno.
+SELECT e.LoginID, d.Name, s.Name FROM employee e JOIN employeedepartmenthistory eh on e.BusinessEntityID = eh.BusinessEntityID JOIN department d
+ON d.DepartmentID = eh.DepartmentID JOIN shift s ON s.ShiftID = eh.ShiftID;;
 
 
